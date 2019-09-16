@@ -58,7 +58,7 @@ echo "##########################################################################
 # 
 #
 ##############################################################################
-gcloud beta container clusters create $PRODUCT_CLUSTER_NAME \
+gcloud container clusters create $PRODUCT_CLUSTER_NAME \
     --project $PROJECT_NAME \
     --zone $PROJECT_ZONE \
     --no-enable-basic-auth \
